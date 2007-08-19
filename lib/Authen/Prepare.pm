@@ -6,7 +6,7 @@ package Authen::Prepare;
 use warnings;
 use strict;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 #------------------------------------------------------------------------------
 # Load Modules
@@ -169,7 +169,7 @@ Authen::Prepare - Prepare a set of authentication credentials
 
 =head1 VERSION
 
-This document describes Authen::Prepare version 0.01
+This document describes Authen::Prepare version 0.02
 
 
 =head1 SYNOPSIS

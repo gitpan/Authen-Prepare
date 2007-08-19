@@ -1,5 +1,8 @@
 Revision history for Authen-Prepare
 
+0.02	Sat Aug 18 21:13:25 EDT 2007
+       	- Fixed some test failures
+
 0.01	Thu Aug 16 13:04:10 EDT 2007
        	- Initial release.
 

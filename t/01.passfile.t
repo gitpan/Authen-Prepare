@@ -14,7 +14,6 @@ use File::Temp qw(tempfile);
 
 # Local Modules;
 use Authen::Prepare;
-use Smart::Comments;
 
 #------------------------------------------------------------------------------
 # Setup
