@@ -1,4 +1,4 @@
-Authen-Prepare version 0.03
+Authen-Prepare version 0.04
 
 DESCRIPTION
 
@@ -72,6 +72,11 @@ DEPENDENCIES
     IO::Prompt
     Readonly
     Text::Glob
+
+
+PROJECT HOME PAGE
+
+http://authen-prepare.googlecode.com
 
 
 COPYRIGHT AND LICENCE

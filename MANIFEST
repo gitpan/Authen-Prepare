@@ -1,6 +1,9 @@
 .cvsignore
 Build.PL
 Changes
+examples/authen_prompt_all.pl
+examples/authen_prompt_none.pl
+examples/mypassfile
 inc/Module/AutoInstall.pm
 inc/Module/Install.pm
 inc/Module/Install/AutoInstall.pm

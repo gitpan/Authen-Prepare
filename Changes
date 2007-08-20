@@ -1,5 +1,8 @@
 Revision history for Authen-Prepare
 
+0.04	Mon Aug 20 15:57:02 EDT 2007
+	- Fixed issue with password prompt
+
 0.03	Mon Aug 20 07:28:59 EDT 2007
 	- Cleaned up more tests
 

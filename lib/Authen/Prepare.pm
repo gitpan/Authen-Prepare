@@ -6,7 +6,7 @@ package Authen::Prepare;
 use warnings;
 use strict;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 #------------------------------------------------------------------------------
 # Load Modules
@@ -54,8 +54,9 @@ sub credentials {
         ),
     );
 
-    $cred{password}
-        = $self->_get_password_for( @cred{qw(hostname username)} );
+    $cred{password} = $self->passfile
+        ? $self->_get_password_for( @cred{qw(hostname username)} )
+        : undef;
 
     if ( !defined $cred{password} ) {
         $cred{password} = $self->_prompt_timed(
@@ -170,7 +171,7 @@ Authen::Prepare - Prepare a set of authentication credentials
 
 =head1 VERSION
 
-This document describes Authen::Prepare version 0.03
+This document describes Authen::Prepare version 0.04
 
 
 =head1 SYNOPSIS
