@@ -21,6 +21,8 @@ README
 t/00.load.t
 t/01.passfile.t
 t/02.prompt.t
+t/distribution.t
 t/perlcritic.t
+t/perlcriticrc
 t/pod-coverage.t
 t/pod.t

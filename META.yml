@@ -1,6 +1,6 @@
 ---
 name: Authen-Prepare
-version: 0.02
+version: 0.03
 author:
   - 'David Narayan  C<< <dnarayan@cpan.org> >>'
 abstract: Prepare a set of authentication credentials
@@ -22,7 +22,7 @@ build_requires:
 provides:
   Authen::Prepare:
     file: lib/Authen/Prepare.pm
-    version: 0.02
+    version: 0.03
 generated_by: Module::Build version 0.2806
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
