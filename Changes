@@ -1,5 +1,8 @@
 Revision history for Authen-Prepare
 
+0.05	Tue Aug 21 13:03:59 EDT 2007
+	- Added workaround for bug in Module::Install
+
 0.04	Mon Aug 20 15:57:02 EDT 2007
 	- Fixed issue with password prompt
 

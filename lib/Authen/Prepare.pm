@@ -6,13 +6,14 @@ package Authen::Prepare;
 use warnings;
 use strict;
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 #------------------------------------------------------------------------------
 # Load Modules
 
+use 5.006;
+
 # Standard Modules
-use v5.6;
 use Carp;
 use English qw(-no_match_vars);
 use Readonly;
@@ -171,7 +172,7 @@ Authen::Prepare - Prepare a set of authentication credentials
 
 =head1 VERSION
 
-This document describes Authen::Prepare version 0.04
+This document describes Authen::Prepare version 0.05
 
 
 =head1 SYNOPSIS
